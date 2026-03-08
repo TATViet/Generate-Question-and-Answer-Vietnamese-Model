@@ -41,9 +41,9 @@ cd Generate-Question-and-Answer-Vietnamese-Model
 pip install -r requirements.txt
 ```
 
-### How to Run
+## 3.How to Run
 
-### 3.Single experiment
+Single experiment
 
 ```bash
 # Recommended: Instruction tuning with mt5-base
@@ -61,7 +61,7 @@ python train_qag_benchmark.py \
   --do_train --do_eval
 ```
 
-### 4.Full benchmark (6 models × all methods)
+Full benchmark (6 models × all methods)
 
 ```bash
 # Just one command — automatically skips completed jobs
@@ -73,14 +73,14 @@ All results are automatically appended to:
 - `results/metrics.csv`
 - `results/metrics.jsonl`
 
-## 5.Evaluation Metrics
+## 4.Evaluation Metrics
 - ROUGE-1 / ROUGE-2 / ROUGE-L
 - BLEU (1–4 gram precisions + brevity penalty)
 - chrF
 - **Answer-in-Context** (% of generated answers that appear in the context)
 - **QA format OK** (for end2end & instruction methods only)
 
-## 6.Intended Use
+## 5.Intended Use
 This toolkit is intended for:
 - Research on Vietnamese Question Generation & Answer Generation
 - Comparing Seq2Seq architectures for Vietnamese
@@ -89,12 +89,12 @@ This toolkit is intended for:
 
 **Not intended for commercial use.**
 
-## 7.Limitations
+## 6.Limitations
 - Performance scales with model size (base models usually outperform small)
 - Instruction tuning quality depends on the 13 provided templates
 - Results are specific to UIT-ViQuAD 2.0 and may differ on other Vietnamese domains
 
-## 8.Citation
+## 7.Citation
 If you use this codebase, the benchmark protocol, or any trained models, please cite:
 
 ```bibtex
@@ -106,7 +106,7 @@ If you use this codebase, the benchmark protocol, or any trained models, please 
 }
 ```
 
-## 9.Contact
+## 8.Contact
 - **Trần**  
 - Email: trananhtracviet20052011@gmail.com
 
