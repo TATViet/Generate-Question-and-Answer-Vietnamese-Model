@@ -102,7 +102,7 @@ If you use this codebase, the benchmark protocol, or any trained models, please 
   title={Generate Question and Answer Vietnamese Model},
   author={Trần},
   year={2025},
-  url={https://github.com/yourusername/Generate-Question-and-Answer-Vietnamese-Model}
+  url={https://github.com/TATViet/Generate-Question-and-Answer-Vietnamese-Model}
 }
 ```
 
